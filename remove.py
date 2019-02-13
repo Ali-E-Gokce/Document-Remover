@@ -6,6 +6,8 @@ from _pdf_info import _pdf_info
 
 
 #looks through directories for pdf files
+#add topdown=False as a variable to traverse bottom up
+# "./" is the directory the script is in. You can write another directory path
 for root, dirs, files in os.walk("./"):
    for name in files:
 
@@ -27,4 +29,4 @@ for root, dirs, files in os.walk("./"):
            ans=input("Do you wish to remove this document? y/n. \n") #
            #removes doc if answer is y
            if ans=='y':
-              os.remove(name) #removes doc
+              os.remove(name)
