@@ -1,10 +1,8 @@
 # Document-Remover
 
-I want to make a program that goes through all the pdf documents on your device, gives you a basic overview of the document, 
-and then asks you if you want to keep the document or not. It will delete the document if you don't want it. It can be helpful if you
+A program that goes through all the pdf documents in a directory and its subdirectories in a top-down fashion , gives you a basic overview of the document, and then asks you if you want to keep the document or not. It will delete the document if you press y, and do nothing if you press n. It can be helpful if you
 have a lot of pdf documents on your laptop you no longer need, and want to get rid of. 
 
-Currently I only have code that goes through your directories and print a summary of and information about pdf documents it finds. I will add code to remove the document soon.
 
 The code uses the NLTK and PyPDF2 library, so you will need to have those installed. You can find more information about those here:
 
